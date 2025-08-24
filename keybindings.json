@@ -1,0 +1,40 @@
+// Place your key bindings in this file to override the defaults
+[
+    // open folder
+    {
+        "key": "ctrl+o",
+        "command": "vscode.openFolder"
+    },
+    // focus editor
+    {
+        "key": "ctrl+e",
+        "when": "!explorerViewletFocus",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+e",
+        "when": "explorerViewletFocus",
+        "command": "workbench.action.focusActiveEditorGroup"
+    },
+    // operate editor
+    {
+        "key": "ctrl+n",
+        "when": "explorerViewletFocus",
+        "command": "explorer.newFile"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "when": "explorerViewletFocus",
+        "command": "explorer.newFolder"
+    },
+    {
+        "key": "ctrl+r",
+        "when": "explorerViewletFocus",
+        "command": "renameFile"
+    },
+    {
+        "key": "ctrl+d",
+        "when": "explorerViewletFocus",
+        "command": "deleteFile"
+    }
+]

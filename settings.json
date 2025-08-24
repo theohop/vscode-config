@@ -1,0 +1,115 @@
+{
+    // Window
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    // Workbench
+    "workbench.sideBar.location": "right",
+    "workbench.activityBar.location": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    // Editor
+    "editor.stickyScroll.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.formatOnSave": true,
+    "editor.lineNumbers": "relative",
+    "editor.minimap.enabled": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+        80
+    ],
+    // Other
+    "chat.commandCenter.enabled": false,
+    "breadcrumbs.enabled": false,
+    // Vim
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // buffers
+        {
+            "before": [
+                "leader",
+                "<S-h>"
+            ],
+            "commands": [
+                ":bprevious"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "<S-l>"
+            ],
+            "commands": [
+                ":bnext"
+            ]
+        },
+        // splits
+        {
+            "before": [
+                "leader",
+                "v"
+            ],
+            "commands": [
+                ":vsplit"
+            ]
+        },
+        // panes
+        {
+            "before": [
+                "leader",
+                "h"
+            ],
+            "commands": [
+                "workbench.action.focusLeftGroup"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.focusRightGroup"
+            ]
+        },
+        // file 
+        {
+            "before": [
+                "leader",
+                "q"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save"
+            ]
+        },
+        // find
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+    ],
+    "workbench.colorTheme": "GitHub Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "chat.agent.enabled": false,
+    "telemetry.feedback.enabled": false,
+    "explorer.confirmDragAndDrop": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "svelte.enable-ts-plugin": true,
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+}
